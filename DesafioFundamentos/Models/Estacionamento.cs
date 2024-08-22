@@ -27,7 +27,7 @@ namespace DesafioFundamentos.Models
             }
             else if (veiculoEstacionando.Length != 7)
             {
-                Console.WriteLine("\nPlaca inválida. \nDigite uma placa de carro válida:");
+                Console.WriteLine("\nPlaca inválida! \nDigite uma placa de carro válida.");
                 return;
             }
             else

@@ -27,6 +27,10 @@ do
         Console.WriteLine("Entrada de dados inválidos. Tente novamente.");
         Console.Read();
     }
+    else
+    {
+        valorInvalido = false;
+    }
     
 } while(valorInvalido);
 

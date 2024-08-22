@@ -27,7 +27,7 @@ namespace DesafioFundamentos.Models
             }
             else if (veiculoEstacionando.Length != 7)
             {
-                Console.WriteLine("\nPlaca inválida! \nDigite uma placa de carro válida.");
+                Console.WriteLine("\nPlaca inválida! \nDigite uma placa de carro contendo 7 caracteres.");
                 return;
             }
             else
@@ -68,7 +68,7 @@ namespace DesafioFundamentos.Models
                 
                 // TODO: Remover a placa digitada da lista de veículos
                 veiculos.Remove(placa);
-                Console.WriteLine($"\nO veículo {placa} foi removido e o preço total foi de: R$ {valorTotal}");
+                Console.WriteLine($"\nO veículo {placa} foi removido e o preço total foi de: R$ {valorTotal:f2}");
             }
             else
             {
